@@ -5,7 +5,7 @@ import { GoogleGenerativeAI, HarmCategory, HarmBlockThreshold } from "@google/ge
 
 // Constants for the generative AI model
 const MODEL_NAME = "gemini-1.5-flash";
-const API_KEY = "AIzaSyBBD2IM5IO4sLAZcGmb5qoXCX6nYtTV0bw";
+const API_KEY = "process.env";
 
 // Function to fetch and process the image
 async function run(imageUrl: string, question: string) {
